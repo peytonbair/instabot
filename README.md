@@ -9,8 +9,8 @@ The driver can be used to login and perform certain tasks.
  <li>download drivers for your machine: https://selenium-python.readthedocs.io/installation.html</li>
  <li>Create a file title key.py</li>
  <li>The file should contain the following:</li>
-    username = "MYUSERNAME"
-    <br>password = "MYPASSWORD"
+    username = "USERNAME"
+    <br>password = "PASSWORD"
  </ol>
  
  
