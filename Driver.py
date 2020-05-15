@@ -17,7 +17,8 @@ class Driver():
         self.driver.find_element_by_name("password").send_keys(self.password)
         self.driver.find_element_by_xpath("/html/body/div[1]/section/main/div/article/div/div[1]/div/form/div[4]/button").click()
         #exit out of notification popup
-        time.sleep(5)
+
+        self.driver.save_screenshot('login.png')
         self.driver.find_element_by_xpath("//button[contains(text(), 'Not Now')]").click();
         time.sleep(1) #sleep before running any other commands
     #actice will get the activity of whoever is in the general list of messages
